@@ -23,3 +23,7 @@ end
 5.times do
   Participation.create(user: User.all.sample, event: Event.all.sample)
 end
+
+
+
+
